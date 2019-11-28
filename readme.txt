@@ -9,9 +9,12 @@
 
 Clone PipeCNN_Winograd project from [github](https://github.com/PipeCNN_Winograd). 
 1) Put testing pictures into ./data/picture.
+
 2) Pre-process model weights with the weight_gen.sh script in ./data/weight;
-        ./data/weight_gen.sh
-3) Compile and test the design with FPGA;
+
+3) Compile design with the run_fpga.sh script in ./project, it will take around one hour to finish all the compilations. Finally, there will generate file "conv_pipe.aocx"
+
+4) Test the design with FPGA;
         ./project/fpga_test.sh
 
 This project is tested with Intel Arrial 10 FPGA and Intel OpenCL SDK v18.0/v19.1.
@@ -19,4 +22,6 @@ This project is tested with Intel Arrial 10 FPGA and Intel OpenCL SDK v18.0/v19.
 ## Citation
 Please kindly cite our work of PipeCNN-Winograd if it helps your research:
 ```
-Anrong Yang, Yuanhui Li, Hongqiao Shu, Jianlin Deng, Chuanzhao Ma, Zheng Li and Qigang Wang, ¡°An OpenCL-Based FPGA Accelerator for Compressed YOLOv2", FPT 2019.
+Anrong Yang, Yuanhui Li, Hongqiao Shu, Jianlin Deng, Chuanzhao Ma, Zheng Li and Qigang Wang, "An OpenCL-Based FPGA Accelerator for Compressed YOLOv2", FPT 2019.
+```
+
