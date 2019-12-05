@@ -1,0 +1,14 @@
+
+WORK > DEFAULT
+DEFAULT:              ./libraries/work/                
+work:                 ./libraries/work/                
+altera_mult_add_180:  ./libraries/altera_mult_add_180/ 
+mult_add_fix8bx16bx4: ./libraries/mult_add_fix8bx16bx4/
+altera_ver:           ./libraries/altera_ver/          
+lpm_ver:              ./libraries/lpm_ver/             
+sgate_ver:            ./libraries/sgate_ver/           
+altera_mf_ver:        ./libraries/altera_mf_ver/       
+altera_lnsim_ver:     ./libraries/altera_lnsim_ver/    
+twentynm_ver:         ./libraries/twentynm_ver/        
+twentynm_hssi_ver:    ./libraries/twentynm_hssi_ver/   
+twentynm_hip_ver:     ./libraries/twentynm_hip_ver/    
