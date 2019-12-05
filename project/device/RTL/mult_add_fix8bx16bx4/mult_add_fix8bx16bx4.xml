@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy
+ date="2019.01.25.15:45:11"
+ outputDirectory="/home/lizheng/test/mac_test_8bx16bx4/ip/mult_add_fix8bx16bx4/">
+ <perimeter>
+  <parameter
+     name="AUTO_GENERATION_ID"
+     type="Integer"
+     defaultValue="0"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_UNIQUE_ID"
+     type="String"
+     defaultValue=""
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE_FAMILY"
+     type="String"
+     defaultValue="Arria 10"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE"
+     type="String"
+     defaultValue="10AX115S2F45I1SG"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE_SPEEDGRADE"
+     type="String"
+     defaultValue="1"
+     onHdl="0"
+     affectsHdl="1" />
+  <interface name="clock0" kind="conduit" start="0">
+   <property name="associatedClock" value="" />
+   <property name="associatedReset" value="" />
+   <property name="prSafe" value="false" />
+   <port name="clock0" direction="input" role="clock0" width="1" />
+  </interface>
+  <interface name="dataa_0" kind="conduit" start="0">
+   <property name="associatedClock" value="" />
+   <property name="associatedReset" value="" />
+   <property name="prSafe" value="false" />
+   <port name="dataa_0" direction="input" role="dataa_0" width="16" />
+  </interface>
+  <interface name="dataa_1" kind="conduit" start="0">
+   <property name="associatedClock" value="" />
+   <property name="associatedReset" value="" />
+   <property name="prSafe" value="false" />
+   <port name="dataa_1" direction="input" role="dataa_1" width="16" />
+  </interface>
+  <interface name="dataa_2" kind="conduit" start="0">
+   <property name="associatedClock" value="" />
+   <property name="associatedReset" value="" />
+   <property name="prSafe" value="false" />
+   <port name="dataa_2" direction="input" role="dataa_2" width="16" />
+  </interface>
+  <interface name="dataa_3" kind="conduit" start="0">
+   <property name="associatedClock" value="" />
+   <property name="associatedReset" value="" />
+   <property name="prSafe" value="false" />
+   <port name="dataa_3" direction="input" role="dataa_3" width="16" />
+  </interface>
+  <interface name="datab_0" kind="conduit" start="0">
+   <property name="associatedClock" value="" />
+   <property name="associatedReset" value="" />
+   <property name="prSafe" value="false" />
+   <port name="datab_0" direction="input" role="datab_0" width="8" />
+  </interface>
+  <interface name="datab_1" kind="conduit" start="0">
+   <property name="associatedClock" value="" />
+   <property name="associatedReset" value="" />
+   <property name="prSafe" value="false" />
+   <port name="datab_1" direction="input" role="datab_1" width="8" />
+  </interface>
+  <interface name="datab_2" kind="conduit" start="0">
+   <property name="associatedClock" value="" />
+   <property name="associatedReset" value="" />
+   <property name="prSafe" value="false" />
+   <port name="datab_2" direction="input" role="datab_2" width="8" />
+  </interface>
+  <interface name="datab_3" kind="conduit" start="0">
+   <property name="associatedClock" value="" />
+   <property name="associatedReset" value="" />
+   <property name="prSafe" value="false" />
+   <port name="datab_3" direction="input" role="datab_3" width="8" />
+  </interface>
+  <interface name="result" kind="conduit" start="0">
+   <property name="associatedClock" value="" />
+   <property name="associatedReset" value="" />
+   <property name="prSafe" value="false" />
+   <port name="result" direction="output" role="result" width="26" />
+  </interface>
+ </perimeter>
+ <entity kind="mult_add_fix8bx16bx4" version="1.0" name="mult_add_fix8bx16bx4">
+  <parameter name="AUTO_GENERATION_ID" value="0" />
+  <parameter name="AUTO_DEVICE" value="10AX115S2F45I1SG" />
+  <parameter name="AUTO_DEVICE_FAMILY" value="Arria 10" />
+  <parameter name="AUTO_UNIQUE_ID" value="" />
+  <parameter name="AUTO_DEVICE_SPEEDGRADE" value="1" />
+  <generatedFiles>
+   <file
+       path="/home/lizheng/test/mac_test_8bx16bx4/ip/mult_add_fix8bx16bx4/synth/mult_add_fix8bx16bx4.v"
+       attributes="CONTAINS_INLINE_CONFIGURATION" />
+  </generatedFiles>
+  <childGeneratedFiles>
+   <file
+       path="/home/lizheng/test/mac_test_8bx16bx4/ip/mult_add_fix8bx16bx4/synth/mult_add_fix8bx16bx4.v"
+       attributes="CONTAINS_INLINE_CONFIGURATION" />
+  </childGeneratedFiles>
+  <sourceFiles>
+   <file
+       path="/home/lizheng/test/mac_test_8bx16bx4/ip/mult_add_fix8bx16bx4.ip" />
+  </sourceFiles>
+  <childSourceFiles>
+   <file
+       path="/home/share/eda/AOCL/altera/18.0_pro/ip/altera/altera_mult_add/source/top/altera_mult_add_hw.tcl" />
+  </childSourceFiles>
+  <messages>
+   <message level="Info" culprit="mult_add_fix8bx16bx4">"Generating: mult_add_fix8bx16bx4"</message>
+   <message level="Info" culprit="mult_add_fix8bx16bx4">"Generating: mult_add_fix8bx16bx4_altera_mult_add_180_4l2tjzi"</message>
+   <message level="Info" culprit="mult_add_0">generating top-level entity mult_add_fix8bx16bx4_altera_mult_add_180_4l2tjzi</message>
+  </messages>
+ </entity>
+ <entity
+   kind="altera_mult_add"
+   version="18.0"
+   name="mult_add_fix8bx16bx4_altera_mult_add_180_4l2tjzi">
+  <parameter name="addnsub_multiplier_sclr1" value="NONE" />
+  <parameter name="addnsub_multiplier_sclr3" value="NONE" />
+  <parameter name="input_sclr_c3" value="NONE" />
+  <parameter name="input_sclr_c2" value="NONE" />
+  <parameter name="input_sclr_c1" value="NONE" />
+  <parameter name="input_sclr_c0" value="NONE" />
+  <parameter name="coef2_1" value="0" />
+  <parameter name="coef2_0" value="0" />
+  <parameter name="coef2_3" value="0" />
+  <parameter name="coef2_2" value="0" />
+  <parameter name="chainout_adder" value="NO" />
+  <parameter name="coef2_5" value="0" />
+  <parameter name="coef2_4" value="0" />
+  <parameter name="coefsel3_latency_sclr" value="NONE" />
+  <parameter name="coef2_7" value="0" />
+  <parameter name="coef2_6" value="0" />
+  <parameter name="port_signa" value="PORT_UNUSED" />
+  <parameter name="systolic_delay1" value="UNREGISTERED" />
+  <parameter name="port_signb" value="PORT_UNUSED" />
+  <parameter name="systolic_delay3" value="UNREGISTERED" />
+  <parameter name="gui_multiplier_a_input" value="Multiplier input" />
+  <parameter name="gui_input_register_b" value="true" />
+  <parameter name="gui_preadder_direction" value="ADD" />
+  <parameter name="gui_input_register_a" value="true" />
+  <parameter name="input_a1_latency_aclr" value="NONE" />
+  <parameter name="coefsel2_register" value="UNREGISTERED" />
+  <parameter name="multiplier1_direction" value="ADD" />
+  <parameter name="chainout_adder_direction" value="ADD" />
+  <parameter name="representation_a" value="SIGNED" />
+  <parameter name="coefsel2_aclr" value="NONE" />
+  <parameter name="gui_datac_input_register_sclr" value="NONE" />
+  <parameter name="gui_multiplier1_direction" value="ADD" />
+  <parameter name="signed_sclr_a" value="NONE" />
+  <parameter name="gui_register_signb_clock" value="CLOCK0" />
+  <parameter name="signed_sclr_b" value="NONE" />
+  <parameter name="input_a3_latency_sclr" value="NONE" />
+  <parameter name="input_b3_latency_aclr" value="NONE" />
+  <parameter name="addnsub_multiplier_aclr3" value="NONE" />
+  <parameter name="coefsel2_latency_clock" value="UNREGISTERED" />
+  <parameter name="input_b2_latency_aclr" value="NONE" />
+  <parameter name="input_a3_latency_clock" value="UNREGISTERED" />
+  <parameter name="gui_double_accum" value="false" />
+  <parameter name="addnsub_multiplier_aclr1" value="NONE" />
+  <parameter name="accum_sload_register" value="UNREGISTERED" />
+  <parameter name="coefsel1_latency_aclr" value="NONE" />
+  <parameter name="representation_b" value="SIGNED" />
+  <parameter name="reg_autovec_sim" value="false" />
+  <parameter name="coefsel0_latency_aclr" value="NONE" />
+  <parameter name="multiplier_aclr0" value="NONE" />
+  <parameter name="input_sclr_a3" value="NONE" />
+  <parameter name="scanouta_sclr" value="NONE" />
+  <parameter name="multiplier_aclr1" value="NONE" />
+  <parameter name="input_sclr_a2" value="NONE" />
+  <parameter name="input_sclr_a1" value="NONE" />
+  <parameter name="multiplier3_direction" value="ADD" />
+  <parameter name="input_sclr_a0" value="NONE" />
+  <parameter name="gui_scanouta_register_aclr" value="NONE" />
+  <parameter name="coef1_0" value="0" />
+  <parameter name="multiplier_aclr2" value="NONE" />
+  <parameter name="coef1_2" value="0" />
+  <parameter name="multiplier_aclr3" value="NONE" />
+  <parameter name="coef1_1" value="0" />
+  <parameter name="coef1_4" value="0" />
+  <parameter name="coef1_3" value="0" />
+  <parameter name="gui_scanouta_register" value="false" />
+  <parameter name="coef1_6" value="0" />
+  <parameter name="coef1_5" value="0" />
+  <parameter name="gui_input_latency_aclr" value="NONE" />
+  <parameter name="input_c1_latency_clock" value="UNREGISTERED" />
+  <parameter name="coef1_7" value="0" />
+  <parameter name="gui_multiplier_register_clock" value="CLOCK0" />
+  <parameter name="use_sload_accum_port" value="NO" />
+  <parameter name="coefsel2_latency_sclr" value="NONE" />
+  <parameter name="signed_latency_aclr_b" value="NONE" />
+  <parameter name="signed_aclr_a" value="NONE" />
+  <parameter name="gui_coef_register" value="false" />
+  <parameter name="signed_latency_aclr_a" value="NONE" />
+  <parameter name="signed_aclr_b" value="NONE" />
+  <parameter name="gui_input_register_b_aclr" value="NONE" />
+  <parameter name="gui_register_signa_clock" value="CLOCK0" />
+  <parameter name="addnsub_multiplier_latency_clock3" value="UNREGISTERED" />
+  <parameter name="multiplier_sclr3" value="NONE" />
+  <parameter name="addnsub_multiplier_latency_clock1" value="UNREGISTERED" />
+  <parameter name="port_addnsub3" value="PORT_UNUSED" />
+  <parameter name="gui_scanouta_register_clock" value="CLOCK0" />
+  <parameter name="multiplier_sclr2" value="NONE" />
+  <parameter name="coefsel1_latency_clock" value="UNREGISTERED" />
+  <parameter name="multiplier_sclr1" value="NONE" />
+  <parameter name="port_addnsub1" value="PORT_UNUSED" />
+  <parameter name="multiplier_sclr0" value="NONE" />
+  <parameter name="gui_addnsub_multiplier_register1" value="false" />
+  <parameter name="gui_addnsub_multiplier_register3" value="false" />
+  <parameter name="input_sclr_b3" value="NONE" />
+  <parameter name="coefsel1_sclr" value="NONE" />
+  <parameter name="input_sclr_b2" value="NONE" />
+  <parameter name="input_sclr_b1" value="NONE" />
+  <parameter name="input_c2_latency_clock" value="UNREGISTERED" />
+  <parameter name="addnsub_multiplier_register3" value="UNREGISTERED" />
+  <parameter name="input_sclr_b0" value="NONE" />
+  <parameter name="addnsub_multiplier_register1" value="UNREGISTERED" />
+  <parameter name="gui_input_register_b_clock" value="CLOCK0" />
+  <parameter name="number_of_multipliers" value="4" />
+  <parameter name="coefsel0_aclr" value="NONE" />
+  <parameter name="gui_multiplier3_direction" value="ADD" />
+  <parameter name="gui_register_signa" value="false" />
+  <parameter name="gui_register_signb" value="false" />
+  <parameter name="gui_systolic_delay" value="false" />
+  <parameter name="accum_sload_latency_aclr" value="NONE" />
+  <parameter name="gui_accum_sload_register_sclr" value="NONE" />
+  <parameter name="input_c3_latency_clock" value="UNREGISTERED" />
+  <parameter name="input_aclr_b2" value="NONE" />
+  <parameter name="coef0_1" value="0" />
+  <parameter name="input_aclr_b3" value="NONE" />
+  <parameter name="coef0_0" value="0" />
+  <parameter name="input_aclr_b0" value="NONE" />
+  <parameter name="coef0_3" value="0" />
+  <parameter name="input_aclr_b1" value="NONE" />
+  <parameter name="coef0_2" value="0" />
+  <parameter name="coef0_5" value="0" />
+  <parameter name="coef0_4" value="0" />
+  <parameter name="coef0_7" value="0" />
+  <parameter name="coef0_6" value="0" />
+  <parameter name="gui_input_register_a_clock" value="CLOCK0" />
+  <parameter name="gui_datac_input_register_aclr" value="NONE" />
+  <parameter name="gui_systolic_delay_clock" value="CLOCK0" />
+  <parameter name="output_sclr" value="NONE" />
+  <parameter name="input_a1_latency_sclr" value="NONE" />
+  <parameter name="gui_accumulate_port_select" value="0" />
+  <parameter name="coefsel3_latency_clock" value="UNREGISTERED" />
+  <parameter name="accum_direction" value="ADD" />
+  <parameter name="negate_latency_aclr" value="NONE" />
+  <parameter name="gui_addnsub_multiplier_register1_clock" value="CLOCK0" />
+  <parameter name="input_aclr_c3" value="NONE" />
+  <parameter name="input_aclr_c1" value="NONE" />
+  <parameter name="input_aclr_c2" value="NONE" />
+  <parameter name="scanouta_aclr" value="NONE" />
+  <parameter name="multiplier_register0" value="UNREGISTERED" />
+  <parameter name="input_b1_latency_aclr" value="NONE" />
+  <parameter name="multiplier_register1" value="UNREGISTERED" />
+  <parameter name="preadder_direction_2" value="ADD" />
+  <parameter name="multiplier_register2" value="UNREGISTERED" />
+  <parameter name="preadder_direction_3" value="ADD" />
+  <parameter name="multiplier_register3" value="UNREGISTERED" />
+  <parameter name="preadder_direction_0" value="ADD" />
+  <parameter name="coefsel2_latency_aclr" value="NONE" />
+  <parameter name="preadder_direction_1" value="ADD" />
+  <parameter name="input_aclr_c0" value="NONE" />
+  <parameter name="input_b0_latency_aclr" value="NONE" />
+  <parameter name="addnsub_multiplier_latency_sclr3" value="NONE" />
+  <parameter name="addnsub_multiplier_latency_sclr1" value="NONE" />
+  <parameter name="gui_pipelining" value="0" />
+  <parameter name="gui_register_signa_sclr" value="NONE" />
+  <parameter name="input_b3_latency_clock" value="UNREGISTERED" />
+  <parameter name="gui_addnsub_multiplier_register3_clock" value="CLOCK0" />
+  <parameter name="coefsel0_sclr" value="NONE" />
+  <parameter name="input_b2_latency_sclr" value="NONE" />
+  <parameter name="gui_input_register_a_aclr" value="NONE" />
+  <parameter name="input_a2_latency_sclr" value="NONE" />
+  <parameter name="input_b2_latency_clock" value="UNREGISTERED" />
+  <parameter name="input_c1_latency_aclr" value="NONE" />
+  <parameter name="input_a0_latency_aclr" value="NONE" />
+  <parameter name="gui_representation_a" value="SIGNED" />
+  <parameter name="gui_representation_b" value="SIGNED" />
+  <parameter name="gui_multiplier_register_aclr" value="NONE" />
+  <parameter name="gui_register_signb_sclr" value="NONE" />
+  <parameter name="gui_associated_clock_enable" value="false" />
+  <parameter name="accum_sload_aclr" value="NONE" />
+  <parameter name="addnsub_multiplier_latency_aclr1" value="NONE" />
+  <parameter name="accum_sload_latency_clock" value="UNREGISTERED" />
+  <parameter name="addnsub_multiplier_latency_aclr3" value="NONE" />
+  <parameter name="input_c2_latency_sclr" value="NONE" />
+  <parameter name="scanouta_register" value="UNREGISTERED" />
+  <parameter name="coefsel0_register" value="UNREGISTERED" />
+  <parameter name="preadder_mode" value="SIMPLE" />
+  <parameter name="gui_systolic_delay_sclr" value="NONE" />
+  <parameter name="gui_datac_input_register_clock" value="CLOCK0" />
+  <parameter name="input_b1_latency_clock" value="UNREGISTERED" />
+  <parameter name="width_result" value="26" />
+  <parameter name="signed_register_a" value="UNREGISTERED" />
+  <parameter name="gui_multiplier_b_input" value="Multiplier input" />
+  <parameter name="signed_register_b" value="UNREGISTERED" />
+  <parameter name="gui_datac_input_register" value="false" />
+  <parameter name="coefsel1_aclr" value="NONE" />
+  <parameter name="input_source_b0" value="DATAB" />
+  <parameter name="input_source_b1" value="DATAB" />
+  <parameter name="input_source_b2" value="DATAB" />
+  <parameter name="input_b1_latency_sclr" value="NONE" />
+  <parameter name="input_c0_latency_aclr" value="NONE" />
+  <parameter name="input_source_a2" value="DATAA" />
+  <parameter name="gui_coef_register_sclr" value="NONE" />
+  <parameter name="input_source_a3" value="DATAA" />
+  <parameter name="negate_latency_sclr" value="NONE" />
+  <parameter name="negate_latency_clock" value="UNREGISTERED" />
+  <parameter name="input_b0_latency_clock" value="UNREGISTERED" />
+  <parameter name="gui_output_register_clock" value="CLOCK0" />
+  <parameter name="input_source_a0" value="DATAA" />
+  <parameter name="input_source_a1" value="DATAA" />
+  <parameter name="double_accum" value="NO" />
+  <parameter name="coefsel3_register" value="UNREGISTERED" />
+  <parameter name="coefsel1_register" value="UNREGISTERED" />
+  <parameter name="use_subnadd" value="NO" />
+  <parameter name="input_a0_latency_clock" value="UNREGISTERED" />
+  <parameter name="gui_output_register_sclr" value="NONE" />
+  <parameter name="gui_systolic_delay_aclr" value="NONE" />
+  <parameter name="loadconst_value" value="64" />
+  <parameter name="input_aclr_a3" value="NONE" />
+  <parameter name="signed_latency_clock_b" value="UNREGISTERED" />
+  <parameter name="signed_latency_clock_a" value="UNREGISTERED" />
+  <parameter name="input_aclr_a1" value="NONE" />
+  <parameter name="input_aclr_a2" value="NONE" />
+  <parameter name="input_a1_latency_clock" value="UNREGISTERED" />
+  <parameter name="gui_multiplier_register_sclr" value="NONE" />
+  <parameter name="input_aclr_a0" value="NONE" />
+  <parameter name="input_c3_latency_sclr" value="NONE" />
+  <parameter name="negate_aclr" value="NONE" />
+  <parameter name="input_c1_latency_sclr" value="NONE" />
+  <parameter name="signed_latency_sclr_a" value="NONE" />
+  <parameter name="signed_latency_sclr_b" value="NONE" />
+  <parameter name="gui_multiplier_register" value="false" />
+  <parameter name="coefsel0_latency_sclr" value="NONE" />
+  <parameter name="output_aclr" value="NONE" />
+  <parameter name="coefsel3_aclr" value="NONE" />
+  <parameter name="gui_4th_asynchronous_clear" value="false" />
+  <parameter name="gui_ena_preload_const" value="false" />
+  <parameter name="coefsel0_latency_clock" value="UNREGISTERED" />
+  <parameter name="gui_accum_sload_register_clock" value="CLOCK0" />
+  <parameter name="output_register" value="CLOCK0" />
+  <parameter name="input_a2_latency_clock" value="UNREGISTERED" />
+  <parameter name="input_b3_latency_sclr" value="NONE" />
+  <parameter name="input_register_c0" value="UNREGISTERED" />
+  <parameter name="input_register_c1" value="UNREGISTERED" />
+  <parameter name="input_register_c2" value="UNREGISTERED" />
+  <parameter name="gui_coef_register_clock" value="CLOCK0" />
+  <parameter name="input_register_c3" value="UNREGISTERED" />
+  <parameter name="coefsel3_sclr" value="NONE" />
+  <parameter name="input_c2_latency_aclr" value="NONE" />
+  <parameter name="input_a3_latency_aclr" value="NONE" />
+  <parameter name="gui_register_signb_aclr" value="NONE" />
+  <parameter name="coefsel2_sclr" value="NONE" />
+  <parameter name="gui_input_latency_sclr" value="NONE" />
+  <parameter name="gui_scanouta_register_sclr" value="NONE" />
+  <parameter name="systolic_sclr1" value="NONE" />
+  <parameter name="systolic_sclr3" value="NONE" />
+  <parameter name="input_c0_latency_clock" value="UNREGISTERED" />
+  <parameter name="accum_sload_latency_sclr" value="NONE" />
+  <parameter name="gui_output_register" value="true" />
+  <parameter name="systolic_aclr3" value="NONE" />
+  <parameter name="coefsel3_latency_aclr" value="NONE" />
+  <parameter name="gui_input_latency_clock" value="CLOCK0" />
+  <parameter name="systolic_aclr1" value="NONE" />
+  <parameter name="gui_input_register_a_sclr" value="NONE" />
+  <parameter name="width_coef" value="18" />
+  <parameter name="accumulator" value="NO" />
+  <parameter name="accum_sload_sclr" value="NONE" />
+  <parameter name="width_b" value="8" />
+  <parameter name="input_register_a2" value="CLOCK0" />
+  <parameter name="width_a" value="16" />
+  <parameter name="input_register_a3" value="CLOCK0" />
+  <parameter name="width_c" value="16" />
+  <parameter name="coef3_0" value="0" />
+  <parameter name="negate_sclr" value="NONE" />
+  <parameter name="latency" value="0" />
+  <parameter name="coef3_2" value="0" />
+  <parameter name="gui_accum_sload_register" value="false" />
+  <parameter name="coef3_1" value="0" />
+  <parameter name="coef3_4" value="0" />
+  <parameter name="coef3_3" value="0" />
+  <parameter name="selected_device_family" value="Arria 10" />
+  <parameter name="coef3_6" value="0" />
+  <parameter name="port_negate" value="PORT_UNUSED" />
+  <parameter name="coef3_5" value="0" />
+  <parameter name="input_register_a0" value="CLOCK0" />
+  <parameter name="input_c3_latency_aclr" value="NONE" />
+  <parameter name="input_register_a1" value="CLOCK0" />
+  <parameter name="coef3_7" value="0" />
+  <parameter name="gui_input_register_b_sclr" value="NONE" />
+  <parameter name="input_a0_latency_sclr" value="NONE" />
+  <parameter name="input_a2_latency_aclr" value="NONE" />
+  <parameter name="gui_coef_register_aclr" value="NONE" />
+  <parameter name="input_register_b3" value="CLOCK0" />
+  <parameter name="gui_register_signa_aclr" value="NONE" />
+  <parameter name="input_c0_latency_sclr" value="NONE" />
+  <parameter name="width_chainin" value="1" />
+  <parameter name="gui_output_register_aclr" value="NONE" />
+  <parameter name="negate_register" value="UNREGISTERED" />
+  <parameter name="input_register_b0" value="CLOCK0" />
+  <parameter name="gui_accum_sload_register_aclr" value="NONE" />
+  <parameter name="input_register_b1" value="CLOCK0" />
+  <parameter name="input_register_b2" value="CLOCK0" />
+  <parameter name="gui_addnsub_multiplier_sclr3" value="NONE" />
+  <parameter name="gui_addnsub_multiplier_sclr1" value="NONE" />
+  <parameter name="input_b0_latency_sclr" value="NONE" />
+  <parameter name="coefsel1_latency_sclr" value="NONE" />
+  <parameter name="input_source_b3" value="DATAB" />
+  <parameter name="gui_addnsub_multiplier_aclr1" value="NONE" />
+  <parameter name="gui_use_subnadd" value="false" />
+  <parameter name="gui_addnsub_multiplier_aclr3" value="NONE" />
+  <generatedFiles>
+   <file
+       path="/home/lizheng/test/mac_test_8bx16bx4/ip/mult_add_fix8bx16bx4/altera_mult_add_180/synth/mult_add_fix8bx16bx4_altera_mult_add_180_4l2tjzi.v"
+       attributes="" />
+  </generatedFiles>
+  <childGeneratedFiles>
+   <file
+       path="/home/lizheng/test/mac_test_8bx16bx4/ip/mult_add_fix8bx16bx4/altera_mult_add_180/synth/mult_add_fix8bx16bx4_altera_mult_add_180_4l2tjzi.v"
+       attributes="" />
+  </childGeneratedFiles>
+  <sourceFiles>
+   <file
+       path="/home/share/eda/AOCL/altera/18.0_pro/ip/altera/altera_mult_add/source/top/altera_mult_add_hw.tcl" />
+  </sourceFiles>
+  <childSourceFiles/>
+  <instantiator instantiator="mult_add_fix8bx16bx4" as="mult_add_0" />
+  <messages>
+   <message level="Info" culprit="mult_add_fix8bx16bx4">"Generating: mult_add_fix8bx16bx4_altera_mult_add_180_4l2tjzi"</message>
+   <message level="Info" culprit="mult_add_0">generating top-level entity mult_add_fix8bx16bx4_altera_mult_add_180_4l2tjzi</message>
+  </messages>
+ </entity>
+</deploy>

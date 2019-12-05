@@ -1,0 +1,18 @@
+# system info mult_add_fix8bx16bx4 on 2019.01.25.15:45:09
+system_info:
+name,value
+DEVICE,10AX115S2F45I1SG
+DEVICE_FAMILY,Arria 10
+GENERATION_ID,0
+#
+#
+# Files generated for mult_add_fix8bx16bx4 on 2019.01.25.15:45:09
+files:
+filepath,kind,attributes,module,is_top
+sim/mult_add_fix8bx16bx4.v,VERILOG,CONTAINS_INLINE_CONFIGURATION,mult_add_fix8bx16bx4,true
+altera_mult_add_180/sim/mult_add_fix8bx16bx4_altera_mult_add_180_4l2tjzi.v,VERILOG,,mult_add_fix8bx16bx4_altera_mult_add_180_4l2tjzi,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+mult_add_fix8bx16bx4.mult_add_0,mult_add_fix8bx16bx4_altera_mult_add_180_4l2tjzi

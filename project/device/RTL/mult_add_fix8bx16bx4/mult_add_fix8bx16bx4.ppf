@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pinplan
+ variation_name="mult_add_0"
+ megafunction_name="ALTERA_MULT_ADD"
+ intended_family="Arria 10"
+ specifies="all_ports">
+ <global>
+  <pin name="result[25..0]" direction="output" scope="external" />
+  <pin name="dataa_0[15..0]" direction="input" scope="external" />
+  <pin name="dataa_1[15..0]" direction="input" scope="external" />
+  <pin name="dataa_2[15..0]" direction="input" scope="external" />
+  <pin name="dataa_3[15..0]" direction="input" scope="external" />
+  <pin name="datab_0[7..0]" direction="input" scope="external" />
+  <pin name="datab_1[7..0]" direction="input" scope="external" />
+  <pin name="datab_2[7..0]" direction="input" scope="external" />
+  <pin name="datab_3[7..0]" direction="input" scope="external" />
+  <pin name="clock0" direction="input" scope="external" />
+ </global>
+</pinplan>

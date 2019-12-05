@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="altera_mult_add_180/sim/mult_add_fix8bx16bx4_altera_mult_add_180_4l2tjzi.v"
+   type="VERILOG"
+   library="altera_mult_add_180" />
+ <file
+   path="sim/mult_add_fix8bx16bx4.v"
+   type="VERILOG"
+   library="mult_add_fix8bx16bx4"
+   hasInlineConfiguration="true" />
+ <topLevel name="mult_add_fix8bx16bx4.mult_add_fix8bx16bx4" />
+ <deviceFamily name="arria10" />
+</simPackage>
