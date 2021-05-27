@@ -1,4 +1,4 @@
-source /home/share/init_aocl_a10gx_18_0
+source ../init_aocl_a10gx_18_0
 rm -rf conv_result.log
 make clean
 ls bin
