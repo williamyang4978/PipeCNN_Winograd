@@ -1,0 +1,9 @@
+export LM_LICENSE_FILE=/home/share/eda/AOCL/license_aocl.dat
+export QUARTUS=/home/share/eda/intelFPGA_pro/18.0/
+export QUARTUS_ROOTDIR_OVERRIDE=$QUARTUS/quartus
+#export ALTERAOCLSDKROOT=$QUARTUS/hld
+export INTELFPGAOCLSDKROOT=$QUARTUS/hld
+export AOCL_BOARD_PACKAGE_ROOT=$INTELFPGAOCLSDKROOT/board/a10_ref
+export PATH=$QUARTUS/quartus/bin:$QUARTUS/qsys/bin:$INTELFPGAOCLSDKROOT/bin:$PATH
+#######export ACL_QSH_COMPILE_CMD="quartus_sh --flow compile top -c flat"
+export LD_LIBRARY_PATH=$INTELFPGAOCLSDKROOT/host/linux64/lib:$AOCL_BOARD_PACKAGE_ROOT/linux64/lib:$LD_LIBRARY_PATH
